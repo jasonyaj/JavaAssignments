@@ -8,16 +8,16 @@ public class TestPuzzleJava {
         PuzzleJava generator = new PuzzleJava();
 
 		// ******** Test getTenRolls ********
-        // ArrayList<Integer> randomRolls = generator.getTenRolls();
-		// System.out.println("Random number: " + randomRolls);
+        ArrayList<Integer> randomRolls = generator.getTenRolls();
+		System.out.println("Random number: " + randomRolls);
 
 		
 		// ******** Test getRandomLetter ********
-        // System.out.println("Random letter: " + generator.getRandomLetter());
+        System.out.println("Random letter: " + generator.getRandomLetter());
 		
         
         // ******** Test generatePassword ********
-        // System.out.println(generator.generatePassword());
+        System.out.println(generator.generatePassword());
 
 
         // ******** Test generatePasswordSet ********
